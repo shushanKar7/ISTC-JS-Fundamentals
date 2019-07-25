@@ -73,3 +73,72 @@ for(let i=0; i<number.length; i++){
         console.log(true)
     }
 }
+
+//Switch: Current week day
+var currentWeekDay=new Date()
+switch(currentWeekDay.getDay()){
+        case 0:
+        console.log("Today is Sunday");
+        break;
+        case 1:
+        console.log("Today is Monday");
+        break;
+        case 2:
+        console.log("Today is Tuesday");
+        break;
+        case 3:
+        console.log("Today is Wednesday");
+        break;
+        case 4:
+        console.log("Today is Thursday");
+        break;
+        case 5:
+        console.log("Today is Friday");
+        break;
+        case 6:
+        console.log("Today is Saturday");
+        break;
+        default:
+        console.log("I could not find the weekday");
+}
+//Switch: Current month
+var currentMonth=new Date()
+switch(currentMonth.getMonth()){
+        case 0:
+        console.log("It is January");
+        break;
+        case 1:
+        console.log("It is February");
+        break;
+        case 2:
+        console.log("It is March");
+        break;
+        case 3:
+        console.log("It is April");
+        break;
+        case 4:
+        console.log("It is May");
+        break;
+        case 5:
+        console.log("It is June");
+        break;
+        case 6:
+        console.log("It is July");
+        break;
+        case 7:
+        console.log("It is August");
+        break;
+        case 8:
+        console.log("It is September");
+        break;
+        case 9:
+        console.log("It is October");
+        break;
+        case 10:
+        console.log("It is November")
+        break;
+        case 11:
+        console.log("It is December")
+        default:
+        console.log("I could not find the month");
+}
